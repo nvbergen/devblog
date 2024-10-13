@@ -1,4 +1,0 @@
-baseURL = 'https://nvbergen.github.io/productionblog/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = hugo-profile
