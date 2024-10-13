@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://nvbergen.github.io/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Nick Van Bergen"
 theme: hugo-profile
 
 outputs:
