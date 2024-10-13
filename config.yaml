@@ -1,4 +1,4 @@
-baseURL: "http://example.com"
+baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Nick Van Bergen"
 theme: hugo-profile
