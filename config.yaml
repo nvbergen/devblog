@@ -1,4 +1,4 @@
-baseURL: "https://nvbergen.github.io/"
+baseURL: "https://nvbergen.github.io/productionblog/"
 languageCode: "en-us"
 title: "Nick Van Bergen"
 theme: hugo-profile
