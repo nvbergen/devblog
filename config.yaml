@@ -29,11 +29,17 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    - identifier: notes
+      name: Notes
+      title: Public Notes
+      url: #tbd ... should point to obsidian publish vault.
+      weight: 1
+    # - identifier: gallery
+    #  name: Gallery
+    #  title: Blog posts
+    #  url: /gallery
+    #  weight: 1
+    
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -56,7 +62,7 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/nvb.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -110,12 +116,16 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Nick Van Bergen" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    
+    disableSearch: true #disabling search function for now. 
     # searchPlaceholder: "Search"
+    
     stickyNavBar:
       enable : true
       showOnScrollUp : true
     enableSeparator: false
+    
+    
     menus:
       disableAbout: false
       disableExperience: false
@@ -129,16 +139,16 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Nick."
-    subtitle: "I build things for the web"
+    subtitle: "I help orginizations discover insights from data"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    image: /images/Nicholas VanBergen Headshot.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/Nicholas_Van_Bergen_Resume.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -155,7 +165,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/NVB_Aus.JPG"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
@@ -183,7 +193,7 @@ params:
         featuredLink:
           enable: true
           name: "View the project"
-          url: "https://example.com"
+          url: "https://example.com" #could link back to projects??
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
       - job: "Software Developer"
@@ -242,22 +252,23 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Science; Financial Analysis and Investment Management (FAIM)"
         school:
-          name: "University of California, Berkeley"
+          name: "Saint Mary's College of California"
           url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+        # date: "2013 - 2015"
+        # GPA: "3.8 out of 5.0"
         content: |-
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
+      
+      - title: "Bachelor of Arts; Philosophy"
+        school: 
+          name: "Arizona State University"
           url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+        # date: "2009 - 2013"
+        # GPA: "3.9 out of 5.0"
         content: |-
           I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
@@ -267,17 +278,18 @@ params:
             - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+      
+      #- title: "High School"
+      #  school:
+      #    name: "Thomas Jefferson High School for Science and Technology."
+      #    url: "https://example.org"
+      #  GPA: "4.2 out of 5.0"
+      #  featuredLink:
+      #    enable: true
+      #    url: "https://example.com"
 
   # Achievements
   achievements:
@@ -375,9 +387,9 @@ params:
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
