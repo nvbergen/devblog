@@ -33,7 +33,7 @@ Menus:
       name: Notes
       title: Public Notes
       url: #tbd ... should point to obsidian publish vault.
-      weight: 1
+      weight: 2
     # - identifier: gallery
     #  name: Gallery
     #  title: Blog posts
