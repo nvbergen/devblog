@@ -1,7 +1,7 @@
 ---
 title: copy of rich content test 1
 date: 2024-10-16
-draft: false
+draft: true
 author: Nick Van Bergen
 tags:
   - algorithm
@@ -51,7 +51,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 {{</* youtube w7Ft2ymGmfc */>}}
 ```
 <br>
-{{< youtube w7Ft2ymGmfc >}}
+{{< youtube iPIDbLR8m6E >}}
 <br>
 
 ## Theme Custom Shortcodes
