@@ -128,10 +128,10 @@ params:
     
     menus:
       disableAbout: false
+      disableProjects: false
       disableExperience: false
       disableEducation: false
-      disableProjects: false
-      disableAchievements: false
+      disableAchievements: true #false
       disableContact: false
 
   # Hero
@@ -147,7 +147,7 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
+      name: "Download My Resume"
       url: "/Nicholas_Van_Bergen_Resume.pdf"
       download: true
       newPage: false
@@ -160,6 +160,8 @@ params:
           url: https://www.linkedin.com/in/planetvb/
         - icon: fab fa-hackerrank
           url: https://www.hackerrank.com/profile/planetvb
+        - icon: far fa-envelope
+          url: mailto:hello@nickvanbergen.com
       #customIcons:
       #  - icon: /fav.png
       #    url: "https://example.com"
@@ -319,6 +321,7 @@ params:
   # projects
   projects:
     enable: true
+    weight: 3
     # title: "Custom Name"
     items:
       - title: Hugo Profile
