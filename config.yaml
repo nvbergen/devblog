@@ -189,7 +189,7 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Work Experience"
     items:
       - job: "Senior Software Developer"
         company: "Facebook"
@@ -250,6 +250,14 @@ params:
         companyUrl: "https://example.com"
         date: "Feb 2016 - Mar 2017"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+      - job: "xProduct Designer"
+        company: "Gcoogle"
+        companyUrl: "https://example.com"
+        date: "Feb 2016 - Mar 2017"
+        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
 
   # Education
   education:
@@ -322,7 +330,7 @@ params:
   projects:
     enable: true
     weight: 3
-    # title: "Custom Name"
+    title: "Project Portfolio"
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
