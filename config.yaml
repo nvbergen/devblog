@@ -407,7 +407,7 @@ params:
 
       - title: Subreddit Classification using Natural Language Processing
         content: "Using webscraping & Natural Language Processing (NLP) techniques, I developed a tool to help investment advisors combat their client's notions of positive investment returnes on so-called 'meme-trades' primarily and almost exclusively made by users in the subreddit community 'r/wallstreetbets' (WSB)."
-        image: /images/projects/wsb dude.png
+        image: /images/projects/wsb dude.jpg
         featured:
           name: Presentation Deck
           link: /docs/presentations/Detecting Fringe Investment Advice.pdf
